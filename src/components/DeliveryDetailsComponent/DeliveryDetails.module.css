@@ -1,0 +1,26 @@
+.packageDetails {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.2rem;
+}
+.packageDetailsmini {
+  display: flex;
+  flex-direction: column;
+}
+.navmenu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+.navmenu ul li {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.navmenu ul {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.navmenu ul li:hover {
+  border-bottom: 3px solid #100a2c;
+}

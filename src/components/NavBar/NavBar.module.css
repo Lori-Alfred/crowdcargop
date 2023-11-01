@@ -1,0 +1,27 @@
+.NavContainer {
+  border-bottom: 2px solid #f2f3f5;
+}
+.NavBarLogo {
+  padding-top: 0.94rem;
+  padding-left: 1.5rem;
+  cursor: pointer;
+}
+
+.rightMenu {
+  display: flex;
+  align-items: center;
+  padding-right: 1.38rem;
+}
+
+.rightMenu li {
+  list-style-type: none;
+  cursor: pointer;
+}
+.cornerText {
+  color: #100a2c;
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding-left: 1.56rem;
+  padding-right: 3.06rem;
+  align-self: center;
+}

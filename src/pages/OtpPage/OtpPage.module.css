@@ -1,0 +1,47 @@
+.verifyAccount {
+  padding-top: 6.85rem;
+  width: 100%;
+}
+.verifyAccount h2 {
+  color: #100a2c;
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+.verifyAccountParagraph1 {
+  color: rgba(16, 10, 44, 0.5);
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding-top: 1.41rem;
+}
+.otpBox {
+  margin: 3.12rem 0;
+}
+.verifybutton button {
+  padding: 1rem 18rem;
+  outline: "none";
+  text-align: center;
+  border-radius: 25px;
+  border: 1px solid #100a2c;
+  background-color: #100a2c;
+  color: #fff;
+  width: 100%;
+}
+.resendbutton button {
+  padding: 1.23375rem 1.41rem;
+  border-radius: 3.525rem;
+  border: 1px solid #f9f9fb;
+  background: #f9f9fb;
+}
+
+.crowdCargoLogo {
+  margin-top: 1.22rem;
+  margin-left: 1.87rem;
+}
+
+@media screen and (max-width: 960px) {
+  .verifybutton button {
+    padding: 1rem 9rem;
+
+    width: 100%;
+  }
+}

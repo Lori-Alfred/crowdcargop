@@ -1,0 +1,24 @@
+.container2 {
+  margin-left: 1.37rem;
+}
+
+.Reusablecontainer2 {
+  display: flex;
+  margin-top: 3.13rem;
+  margin-bottom: 1.27rem;
+}
+.Reusablecontainerd {
+  margin-left: 3.17rem;
+}
+@media screen and (max-width: 950px) {
+  .dashContainer {
+    flex-wrap: wrap;
+    width: 100vw;
+  }
+  .container2 {
+    margin-left: 0;
+  }
+  .container2 img {
+    width: 100%;
+  }
+}

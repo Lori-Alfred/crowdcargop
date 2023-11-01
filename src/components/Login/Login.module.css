@@ -1,0 +1,75 @@
+/* Login Form Background  starts here */
+.LoginBackGroundContainer {
+  height: 100vh;
+  background-color: #fbfbf9;
+}
+.LoginBackGroundImageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  /* padding-left: 4.5rem;
+  padding-right: 4.5rem; */
+}
+.LoginBackGroundImageContainer img {
+  max-width: 100%;
+}
+.LoginBackGroundHeading {
+  color: rgba(16, 10, 44, 0.8);
+  font-family: Chillax;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 3.3rem;
+  text-align: center;
+}
+.LoginBackGroundParagraph {
+  color: rgba(16, 10, 44, 0.5);
+  text-align: center;
+  font-family: Chillax;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 2.68rem;
+}
+/* Login Form starts here */
+.loginFormContainer {
+  padding-top: 7.75rem;
+  /* padding-left: 13.87rem; */
+  font-family: Chillax;
+}
+.loginFormContainer h1 {
+  color: #100a2c;
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+.loginFormContainer p {
+  color: rgba(16, 10, 44, 0.5);
+  font-family: Chillax;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.loginFormContainer label {
+  display: block;
+  color: #100a2c;
+  font-family: Chillax;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.passwordInput {
+  padding-top: 1.61rem;
+  margin-bottom: 5.9rem;
+}
+.loginButton {
+  outline: none;
+  padding: 0.75rem 0;
+  border: 1px solid #100a2c;
+  border-radius: 2.68125rem;
+  text-align: center;
+  color: #fff;
+  background-color: #100a2c;
+  width: 100%;
+}

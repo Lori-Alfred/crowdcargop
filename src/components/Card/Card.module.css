@@ -1,0 +1,40 @@
+.cardContainer {
+  padding: 0.94rem 0.62rem;
+  border-radius: 0.5rem;
+  border: 0.5px solid #f2f3f5;
+  background: #fff;
+}
+.cardContainer:not(:first-child) {
+  margin-top: 0.63rem;
+}
+
+.packageId h4 {
+  color: rgba(16, 10, 44, 0.8);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+}
+.packageId p {
+  color: #24ad42;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+}
+
+.packageDetails {
+  color: #100a2c;
+  font-size: 0.5rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.packageMoreDetails {
+}
+
+.packagePricing {
+  color: #100a2c;
+  font-size: 0.625rem;
+  font-weight: 600;
+  line-height: 0.9375rem; /* 150% */
+  letter-spacing: -0.00625rem;
+}
