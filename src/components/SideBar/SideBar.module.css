@@ -1,18 +1,31 @@
 .sideBarMenu {
   border-right: 2px solid #f2f3f5;
-  padding-left: 1.5rem;
-  padding-right: 2.5rem;
 }
-
+.sideBarMenu ul {
+  padding-left: 0;
+  padding-left: 1.5rem;
+  padding-right: 1.63rem;
+}
+.sideBarMenu ul li:first-child {
+  margin-top: 2.5rem;
+}
 .sideBarMenu li {
   list-style-type: none;
-  margin-top: 1rem;
+  margin-top: 1.62rem;
+  width: 13.125rem;
 }
 .sideBarMenu li a {
   text-decoration: none;
   color: rgba(16, 10, 44, 0.8);
   font-size: 1rem;
   font-weight: 500;
+  padding: 0.88rem 1rem;
+}
+.sideBarMenu :global(.active) {
+  color: #7eb2ff;
+  border-radius: 2.5rem;
+  padding-right: 5rem;
+  background: rgba(126, 178, 255, 0.15);
 }
 .sideBarMenu li img {
   margin-right: 1rem;

@@ -16,47 +16,59 @@ const SideBar = ({ children }: { children: React.ReactNode }) => {
       <div className={`${styles.sideBarMenu} col-2 `}>
         <ul>
           <li>
-            <img src={home} alt="home icon" />
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/">
+              {" "}
+              <img src={home} alt="home icon" />
+              Home
+            </NavLink>
           </li>
           <li>
-            <img src={insight} alt="insight icon" />
-
-            <NavLink to="/">Insight</NavLink>
+            <NavLink to="/">
+              <img src={insight} alt="insight icon" />
+              Insight
+            </NavLink>
           </li>
           <li>
-            <img src={wallet} alt="wallet icon" />
-
-            <NavLink to="/">Wallet</NavLink>
+            <NavLink to="/">
+              <img src={wallet} alt="wallet icon" />
+              Wallet
+            </NavLink>
           </li>
           <li>
-            <img src={usersidebar} alt="users icon" />
-
-            <NavLink to="/">Users</NavLink>
+            <NavLink to="/dashboard">
+              <img src={usersidebar} alt="users icon" />
+              Users
+            </NavLink>
           </li>
           <li>
-            <img src={deliveries} alt="deliveries icon" />
-
-            <NavLink to="/">Deliveries</NavLink>
+            <NavLink to="/">
+              <img src={deliveries} alt="deliveries icon" />
+              Deliveries
+            </NavLink>
           </li>
           <li>
-            <img src={transactions} alt="transaction icon" />
-
-            <NavLink to="/">Transactions</NavLink>
+            <NavLink to="/">
+              <img src={transactions} alt="transaction icon" />
+              Transactions
+            </NavLink>
           </li>
           <li>
-            <img src={team} alt="team icon" />
-
-            <NavLink to="/">Team</NavLink>
+            <NavLink to="/">
+              <img src={team} alt="team icon" />
+              Team
+            </NavLink>
           </li>
           <li>
-            <img src={configurations} alt="config icon" />
-            <NavLink to="/">Configuration</NavLink>
+            <NavLink to="/">
+              <img src={configurations} alt="config icon" />
+              Configuration
+            </NavLink>
           </li>
           <li className="pt-5">
-            <img src={logout} alt="config icon" />
-
-            <NavLink to="/">Logout</NavLink>
+            <NavLink to="/">
+              <img src={logout} alt="config icon" />
+              Logout
+            </NavLink>
           </li>
         </ul>
       </div>
