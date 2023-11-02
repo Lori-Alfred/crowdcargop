@@ -3,7 +3,6 @@ import LoginPage from "./src/pages/LoginPage/LoginPage";
 import OtpPage from "./src/pages/OtpPage/OtpPage";
 import NotFound from "./src/pages/NotFound";
 import { Routes, Route } from "react-router-dom";
-import React from "react";
 function App() {
   return (
     <>
